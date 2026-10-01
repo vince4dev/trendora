@@ -25,6 +25,10 @@ import heroPost4 from "../assets/images/hero-post-4.png";
 import postAuthor from "../assets/images/post-author.png";
 import post1 from "../assets/images/post-1.jpg";
 import post2 from "../assets/images/post-2.jpg";
+import img1 from "../assets/images/categori-img-1.jpg";
+import img2 from "../assets/images/categori-img-2.jpg";
+import img3 from "../assets/images/categori-img-3.jpg";
+import img4 from "../assets/images/categori-img-4.jpg";
 
 function Index() {
   const [activeTab, setActiveTab] = useState("trending");
@@ -46,6 +50,13 @@ function Index() {
   ];
 
   const postToDisplay = activeTab === "trending" ? trendingPosts : latestPosts;
+
+  const categories = [
+    { title: "Business", Posts: 3, image: img1 },
+    { title: "Travel", Posts: 8, image: img2 },
+    { title: "Lifestyle", Posts: 5, image: img3 },
+    { title: "Tech", Posts: 3, image: img4 },
+  ]
 
   return (
     <>
@@ -307,6 +318,79 @@ function Index() {
               <p className="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nesciunt omnis quibusdam illo eos nam.</p>
               <button className="btn btn-primary btn-sw">About Me</button>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Most Read */}
+      <div className="container my-5">
+        <div className="row">
+          <div className="head-wrap my-3 d-flex justify-content-between align-items-center">
+            <h2>Most Read</h2>
+            <button className="btn">Read More</button>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-6">
+            <div className="mr-card-wrap position-relative">
+              <div className="mr-content position-absolute">
+                <span className="post-span post-span2">Travel</span>
+                <h3 className="title">Extaordinary Snoqualmie falls and Settle Tour</h3>
+                <p className="small mt-2">by <strong>Ricky</strong> &nbsp; - &nbsp; January 29, 2024 &nbsp; <span>0</span></p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="col-lg-3">
+            <div className="post-card">
+              <div className="post-img mr-card-img">
+                <img src={post1} className="img-fluid rounded" alt="" />
+              </div>
+              <div className="post-content mt-3">
+                <span className="post-span post-span1">Food</span>
+                <h2>Who Owns Your Body: 10 Steps to the Best Shape</h2>
+              </div>
+            </div>
+            <div className="post-card">
+              <div className="post-img mr-card-img">
+                <img src={post2} className="img-fluid rounded" alt="" />
+              </div>
+              <div className="post-content mt-3">
+                <span className="post-span post-span3">Travel</span>
+                <h2>The Best Therapy for Your Mind and Soul done</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-3">
+              <div className="post-box-wrap">
+                <div className="post-box-tab d-flex gap-3">
+                  <button 
+                    className={`btn ${activeTab === "trending" ? "btn-primary" : "btn-outline-primary"}`}
+                    onClick={() => setActiveTab("trending")}
+                  >Trending News
+                  </button>
+                  <button 
+                    className={`btn ${activeTab === "latest" ? "btn-primary" : "btn-outline-primary"}`}
+                    onClick={() => setActiveTab("latest")}
+                  >Latest News
+                  </button>
+                </div>
+
+                <div className="mt-4 shadow px-3 py-2 rounded">
+                  {postToDisplay.map((post, index) => (
+                    <div className={`post-box d-flex align-items-center gap-2 border-bottom pb-2 ${index === 0 ? "mt-3": "mt-3"}`} key={index}>
+                      <div className="post-box-img">
+                        <img src={post.img} className="img-fluid" alt="" />
+                      </div>
+                      <div className="post-box-content">
+                        <span>{post.category}</span>
+                        <p>{post.text}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
           </div>
         </div>
       </div>
