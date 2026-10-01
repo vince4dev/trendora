@@ -60,11 +60,11 @@ function Index() {
 
   return (
     <>
+      {/* Headline Text */}
       <div className="container mt-3">
         <div className="d-flex align-items-center gap-4">
           <span className="headline-title"><i className="bi bi-lightning"></i>Top News</span>
 
-          {/* Headline Text */}
           <Swiper
             className="headline-text-swiper"
             slidesPerView={1}
@@ -392,6 +392,40 @@ function Index() {
                 </div>
               </div>
           </div>
+        </div>
+      </div>
+
+      {/* Category */}
+      <div className="container categories py-5">
+        <div className="row g-4">
+          {categories.map((cat, i) => (
+            <div className="col-12 col-md-6 col-lg-3" key={i}>
+              <div 
+                className="card text-white border-0 position-relative overflow-hidden"
+                style={{
+                  borderRadius: "16px",
+                  height: "100%"
+                }}
+              >
+                <img 
+                  src={cat.image} 
+                  className="card-img" 
+                  style={{
+                    height: "100%",
+                    objectFit: "cover",
+                    borderRadius: "16px"
+                  }}
+                  alt="" />
+                  <div className="card-img-overlay d-flex flex-column justify-content-end text-center bg-dark bg-opacity-50 rounded">
+                    <p className="mb-1 fs-57">{cat.Posts} Posts</p>
+                    <h5 className="card-title fw-bold">{cat.title}</h5>
+                    <button className="btn btn-outline-light btn-sm w-auto mx-auto mt-2 rounded-pill px-4">
+                      See ALl
+                    </button>
+                  </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </>
