@@ -460,7 +460,7 @@ function Index() {
                   <span 
                     className={`post-span ${
                       data.tag === "Lifestyle"
-                    ? "post-span"
+                    ? "post-span1"
                     : data.tag === "Tech"
                     ? "post-span2"
                     : data.tag === "Business"
@@ -508,6 +508,47 @@ function Index() {
               ))}
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Recent Posts */}
+      <div className="container my-5">
+        <div className="row">
+          <div className="head-wrap my-3 d-flex justify-content-between align-items-center">
+            <h2>Recent Posts</h2>
+          </div>
+        </div>
+        <div className="row">
+          {Datas.map((data) => (
+            <div className="col-lg-6" key={data.id}>
+              <div className="card lp-card border rounded p-3 my-3 d-flex flex-row align-items-start gap-3"
+              >
+                <img 
+                  src={data.image} 
+                  alt={data.title}
+                  className="rounded img-fluid lp-post"
+                  style={{width: "200px", height: "200px", objectFit: "cover"}}
+                />
+                <div className="flex-grow-1">
+                  <span 
+                    className={`post-span ${
+                      data.tag === "Lifestyle"
+                    ? "post-span1"
+                    : data.tag === "Tech"
+                    ? "post-span2"
+                    : data.tag === "Business"
+                    ? "post-span3"
+                    : ""
+                  } px-3 text-uppercase`}>
+                    {data.tag}
+                  </span>
+                  <h5 className="fw-bold fs-4 my-3">{data.title}</h5>
+                  <p className="mb-2 text-muted">{data.author_date} - <i className="bi bi-chart">0</i></p>
+                  <p className="text-muted small mb-0">{data.paragraph}</p>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </>

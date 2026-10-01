@@ -11,7 +11,7 @@
     "id":2,
     "image":"src/assets/images/Latest-post-2.jpg",
     "tag":"Lifestyle",
-    "title":"16 ways you can your phone your productivity",
+    "title":"The Power of Big in Discovery and Decision Making",
     "author_date":"By Ricky - January 29, 2024",
     "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
   },
@@ -19,7 +19,7 @@
     "id":3,
     "image":"src/assets/images/Latest-post-3.jpg",
     "tag":"Tech",
-    "title":"17 ways you can your phone your productivity",
+    "title":"How To Change The Icons For Your Favorite Apps On",
     "author_date":"By Ricky - January 29, 2024",
     "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
   },
@@ -27,7 +27,7 @@
     "id":4,
     "image":"src/assets/images/Latest-post-4.jpg",
     "tag":"Business",
-    "title":"18 ways you can your phone your productivity",
+    "title":"How Product Designers Can Gamification for any Good",
     "author_date":"By Ricky - January 29, 2024",
     "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
   },
@@ -35,7 +35,15 @@
     "id":5,
     "image":"src/assets/images/Latest-post-5.png",
     "tag":"Lifestyle",
-    "title":"19 ways you can your phone your productivity",
+    "title":"Confidence and Authority through Tailored Fashion",
+    "author_date":"By Ricky - January 29, 2024",
+    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
+  },
+  {
+    "id":6,
+    "image":"src/assets/images/blog-1.jpg",
+    "tag":"Tech",
+    "title":"How to Change The Icons For Your Apps On",
     "author_date":"By Ricky - January 29, 2024",
     "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
   }
