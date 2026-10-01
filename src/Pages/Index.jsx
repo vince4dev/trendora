@@ -29,6 +29,13 @@ import img1 from "../assets/images/categori-img-1.jpg";
 import img2 from "../assets/images/categori-img-2.jpg";
 import img3 from "../assets/images/categori-img-3.jpg";
 import img4 from "../assets/images/categori-img-4.jpg";
+import blog1 from "../assets/images/blog-1.jpg";
+import blog2 from "../assets/images/blog-2.jpg";
+import blog3 from "../assets/images/blog-3.jpg";
+import blog4 from "../assets/images/blog-4.jpg";
+import blog5 from "../assets/images/blog-5.jpg";
+import blogBg from "../assets/images/blog-bg.png";
+import subscribeImg from "../assets/images/subscribe-img.png";
 
 function Index() {
   const [activeTab, setActiveTab] = useState("trending");
@@ -426,6 +433,81 @@ function Index() {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+
+      {/* Latest Posts */}
+      <div className="container my-5">
+        <div className="row">
+          <div className="head-wrap my-3 d-flex justify-content-between align-items-center">
+            <h2>Latest Posts</h2>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-8">
+            {Datas.map((data, index) => (
+              <div 
+                key={data.id} 
+                className="card lp-card border rounded p-3 my-3 d-flex flex-row align-items-center gap-3"
+              >
+                <img 
+                  src={data.image} 
+                  alt={data.title}
+                  className="rounded img-fluid lp-post"
+                  style={{width: "200px", height: "200px", objectFit: "cover"}}
+                />
+                <div className="flex-grow-1">
+                  <span 
+                    className={`post-span ${
+                      data.tag === "Lifestyle"
+                    ? "post-span"
+                    : data.tag === "Tech"
+                    ? "post-span2"
+                    : data.tag === "Business"
+                    ? "post-span3"
+                    : ""
+                  } px-3 text-uppercase`}>
+                    {data.tag}
+                  </span>
+                  <h5 className="fw-bold fs-4 my-3">{data.title}</h5>
+                  <p className="mb-2 text-muted">{data.author_date} - <i className="bi bi-chart">0</i></p>
+                  <button 
+                    className="btn btn-light mt-3 rounded-circle border shadow-sm d-flex align-items-center justify-content-center" 
+                    style={{width:"36px", height: "36px"}}
+                  >
+                    <i className="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="col-lg-4 lp-right-wrap">
+            <div className="promo-card mb-4">
+              <img src={blogBg} className="img-fluid" alt="" />
+            </div>
+            <div className="search-card">
+              <h4 className="fw-bold">Search</h4>
+              <div className="input-btn d-flex gap-3 mb-4">
+                <input type="text" />
+                <button>Search</button>
+              </div>
+            </div>
+            <div className="trending-post">
+              <h4 className="mb-4">Trending</h4>
+              {[blog1, blog2, blog3, blog4].map((imgSrc, idx) => (
+                <div className="d-flex align-items-center mb-4">
+                  <img src={imgSrc} className="me-3" alt="" />
+                  <div>
+                    <h5 className="mb-1 fw-bold">{
+                        ["Why Organizers Think They Got Creamed", "The surprising benefit of Scary play on way out", "12 food you can eat lot of without getting", "Our company creates with a hobby"][idx]
+                      }</h5>
+                      <small>January 29, 2024</small>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </>
