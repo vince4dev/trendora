@@ -108,6 +108,12 @@ function Index() {
               delay: 1500,
               disableOnInteraction: false,
             }}
+            breakpoints={{
+              1399:{slidesPerView: 3},
+              991:{slidesPerView: 2},
+              767:{slidesPerView: 1},
+              0:{slidesPerView: 1}
+            }}
           >
             {Datas.map((Data, index) => {
               return (
@@ -448,7 +454,7 @@ function Index() {
             {Datas.map((data, index) => (
               <div 
                 key={data.id} 
-                className="card lp-card border rounded p-3 my-3 d-flex flex-row align-items-center gap-3"
+                className="card lp-post-card border rounded p-3 my-3 d-flex flex-row align-items-center gap-3"
               >
                 <img 
                   src={data.image} 
