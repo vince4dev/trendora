@@ -551,6 +551,31 @@ function Index() {
           ))}
         </div>
       </div>
+
+      {/* Newsletter */}
+      <div className="py-5 subscribe norder-top">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 mb-4 mb-md-5">
+              <h2 className="fw-bold">Get the best blog stories into your inbox!</h2>
+              <form className="d-flex mt-4">
+                <div className="input-group shadow-sm overflow-hidden">
+                  <span className="input-group-text bg-white border-0">
+                    <i className="bi bi-envelope"></i>
+                  </span>
+                  <input type="email" className="form-control border-0" placeholder="Enter Your Email" required/>
+                  <button type="submit" className="btn ab-sub-btn px-4 d-flex align-items-center rounded-pill">
+                    <i className="bi bi-send me-2"></i> SUBSCRIBE
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div className="col-lg-6 text-center">
+              <img src={subscribeImg} className="subscribe-img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }

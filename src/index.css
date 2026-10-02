@@ -562,3 +562,24 @@ body {
 .trending-post small {
   color: var(--black);
 }
+
+.subscribe {
+  background-color: var(--bg-color);
+}
+.subscribe h2 {
+  width: 70%;
+  font-size: 36px;
+  line-height: cover;
+}
+.subscribe img {
+  width: 100%;
+  object-fit: cover;
+}
+.subscribe button {
+  transition: var(--transition-slow);
+  cursor: pointer;
+}
+.subscribe button:hover {
+  background-color: var(--footer-color);
+  color: #fff;
+}
