@@ -66,10 +66,10 @@ function Nav() {
 
         <div className="collapse navbar-collapse justify-content-center" id="mainNavbar">
           <ul className="navbar-nav">
-            <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
-            <li className="nav-item"><a href="#" className="nav-link">About</a></li>
-            <li className="nav-item"><a href="#" className="nav-link">Blog</a></li>
-            <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
+            <li className="nav-item"><a href="/" className="nav-link">Home</a></li>
+            <li className="nav-item"><a href="about" className="nav-link">About</a></li>
+            <li className="nav-item"><a href="blog" className="nav-link">Blog</a></li>
+            <li className="nav-item"><a href="contact" className="nav-link">Contact</a></li>
           </ul>
         </div>
         <div className="d-flex align-items-center">

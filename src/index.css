@@ -746,5 +746,167 @@ body {
     right: -30%;
     border-radius: 10px;
   }
+}
 
+/* About Page Section */
+.page-section a {
+  text-decoration: none;
+  color: var(--prim-color);
+}
+.page-section span {
+  font-size: 1.2rem;
+}
+
+.about h1 {
+  font-size: 38px;
+  width: 92%;
+  color: var(--black);
+}
+.about p {
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--gray);
+}
+.about ul li i {
+  color: var(--primary);
+  font-size: 18px;
+}
+.about ul li strong {
+  color: var(--black);
+}
+.about h2 {
+  font-size: 50px;
+  color: var(--black);
+}
+about-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media(max-width:1189px) {
+  .about h1 {
+    font-size: 34px;
+  }
+}
+
+/* Our Skill Section */
+.our-skill img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.our-skill h4 {
+  color: var(--prim-color);
+  font-size: 24px;
+  font-weight: 500;
+}
+.our-skill h2 {
+  font-size: 40px;
+  line-height: 1.3;
+  width: 65%;
+  color: var(--black);
+}
+.our-skill p {
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--gray);
+  width: 100%;
+}
+.our-skill span strong {
+  color: var(--black);
+}
+.our-skill span {
+  color: var(--black);
+}
+.our-skill .progress {
+  background-color: var(--primary);
+}
+
+@media (max-width:1199px) {
+  .our-skill h2 {
+    width: 80%;
+  }
+}
+
+/* Team Section */
+.team-text h5 {
+  color: var(--black);
+}
+.team-text p {
+  color: var(--black);
+}
+
+.team-icons .fab {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: var(--transition-slow);
+  cursor: pointer;
+}
+
+.fa-facebook-f {
+  color: #3b5998;
+  border: 1px solid #3b5998;
+}
+.fa-facebook-f:hover {
+  background-color: #3b5998;
+  border: none;
+  color: var(--white);
+}
+
+.fa-twitter {
+  color: #1da1f2;
+  border: 1px solid #1da1f2;
+}
+.fa-twitter:hover {
+  background-color: #1da1f2;
+  border: none;
+  color: var(--white);
+}
+
+.fa-linkedin-in {
+  color: #0077b5;
+  border: 1px solid #0077b5;
+}
+.fa-linkedin-in:hover {
+  background-color: #0077b5;
+  border: none;
+  color: var(--white);
+}
+
+.fa-instagram {
+  color: #e1306c;
+  border: 1px solid #e1306c;
+}
+.fa-instagram:hover {
+  background-color: #e1306c;
+  border: none;
+  color: var(--white);
+}
+
+/* Subscribe Section */
+.subscribe {
+  background-color: var(--bg-color);
+}
+.subscribe h2 {
+  width: 70%;
+  font-size: 36px;
+  line-height: 1.3;
+}
+.subscribe button {
+  background-color: var(--gray);
+  transition: var(--transition-slow);
+  color: var(--white);
+  cursor: pointer;
+}
+.subscribe button:hover {
+  background-color: var(--footer-color);
+  color: var(--white);
+}
+.subscribe img {
+  width: 100%;
+  object-fit: cover;
 }
