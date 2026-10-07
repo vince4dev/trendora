@@ -51,7 +51,7 @@ function About() {
             <div className="col-lg-6">
               <h4 className='mb-3'>Our Skill</h4>
               <h2 className='fw-bold'>Make Beauty Thing With Passion</h2>
-              <p className="mb-2">
+              <p className="mb-4">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil a repudiandae enim laborum officiis! Quo veritatis aut tempore accusantium at consectetur necessitatibus labore facere. Corrupti molestiae, nostrum nisi vel est fugit veniam delectus quibusdam beatae a maxime quos nesciunt facilis odio officia eius adipisci? Temporibus pariatur ipsam reiciendis enim alias?
               </p>
 
