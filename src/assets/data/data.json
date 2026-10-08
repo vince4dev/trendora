@@ -5,7 +5,74 @@
     "tag":"Tech",
     "title":"15 ways you can your phone your productivity",
     "author_date":"By Ricky - January 29, 2024",
-    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
+    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting",
+    "content": {
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus provident excepturi modi, nihil neque quod. Aliquam necessitatibus maiores saepe cum dolore similique quibusdam, unde maxime inventore veritatis. Nobis aut similique necessitatibus.",
+      "blogImage": "src/assets/images/Latest-post-1.jpg",
+      "Points": [
+        {
+          "title": "1. Use a Task Management App",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "2. Sync Your Calendar",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "3. Limit Notifications",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "4. Practice Digital Minimalism",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "5. Listen to Productivity Podcasts",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "6. Use Voice Notes",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "7. Read Books or Articles on the Go",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "8. Track Habits",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "9. Improve Your Sleep",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "10. Learn New Skills",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "11. Use Time Tracking Tools",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "12. Automate Repetitiv Tools",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "13. Declutter Your Home Screen",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "14. Keep Your Phone Charged Smartly",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "15. Use Collaboration Apps",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        }
+      ],
+      "conclusion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas earum deleniti consectetur sit, illo eius exercitationem magni animi neque vitae. Quae cumque debitis architecto repellendus qui quos natus sequi iure?"
+    }
   },
   {
     "id":2,
@@ -13,7 +80,34 @@
     "tag":"Lifestyle",
     "title":"The Power of Big in Discovery and Decision Making",
     "author_date":"By Ricky - January 29, 2024",
-    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
+    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting",
+    "content": {
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus provident excepturi modi, nihil neque quod. Aliquam necessitatibus maiores saepe cum dolore similique quibusdam, unde maxime inventore veritatis. Nobis aut similique necessitatibus.",
+      "blogImage": "src/assets/images/Latest-post-2.jpg",
+      "Points": [
+        {
+          "title": "1. Enhanced Personalization",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "2. Predictive Analytics",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "3. Accelerated Research",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "4. Smarter Business Decisions",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "5. Operationan Efficiency",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        }
+      ],
+      "conclusion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas earum deleniti consectetur sit, illo eius exercitationem magni animi neque vitae. Quae cumque debitis architecto repellendus qui quos natus sequi iure?"
+    }
   },
   {
     "id":3,
@@ -21,7 +115,34 @@
     "tag":"Tech",
     "title":"How To Change The Icons For Your Favorite Apps On",
     "author_date":"By Ricky - January 29, 2024",
-    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
+    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting",
+    "content": {
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus provident excepturi modi, nihil neque quod. Aliquam necessitatibus maiores saepe cum dolore similique quibusdam, unde maxime inventore veritatis. Nobis aut similique necessitatibus.",
+      "blogImage": "src/assets/images/Latest-post-3.jpg",
+      "Points": [
+        {
+          "title": "1. Using ios Shortcuts App",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "2. Using Android Lanchers",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "3. Download Icon Packs",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "4. Create Your Own Icons",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "5. Organize For Function and Aesthetic",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        }
+      ],
+      "conclusion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas earum deleniti consectetur sit, illo eius exercitationem magni animi neque vitae. Quae cumque debitis architecto repellendus qui quos natus sequi iure?"
+    }
   },
   {
     "id":4,
@@ -29,7 +150,34 @@
     "tag":"Business",
     "title":"How Product Designers Can Gamification for any Good",
     "author_date":"By Ricky - January 29, 2024",
-    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
+    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting",
+    "content": {
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus provident excepturi modi, nihil neque quod. Aliquam necessitatibus maiores saepe cum dolore similique quibusdam, unde maxime inventore veritatis. Nobis aut similique necessitatibus.",
+      "blogImage": "src/assets/images/Latest-post-4.jpg",
+      "Points": [
+        {
+          "title": "1. Understanding User Psychology",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "2. Adding Progress Indicators",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "3. Reward Systems",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "4. Social SHaring and Challenges",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "5. Ethical Sharing and Challenges",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        }
+      ],
+      "conclusion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas earum deleniti consectetur sit, illo eius exercitationem magni animi neque vitae. Quae cumque debitis architecto repellendus qui quos natus sequi iure?"
+    }
   },
   {
     "id":5,
@@ -37,14 +185,33 @@
     "tag":"Lifestyle",
     "title":"Confidence and Authority through Tailored Fashion",
     "author_date":"By Ricky - January 29, 2024",
-    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
-  },
-  {
-    "id":6,
-    "image":"src/assets/images/blog-1.jpg",
-    "tag":"Tech",
-    "title":"How to Change The Icons For Your Apps On",
-    "author_date":"By Ricky - January 29, 2024",
-    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting"
+    "paragraph":"Tuesday's primary is the first big test of the legislation, which was opposed by voting",
+        "content": {
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus provident excepturi modi, nihil neque quod. Aliquam necessitatibus maiores saepe cum dolore similique quibusdam, unde maxime inventore veritatis. Nobis aut similique necessitatibus.",
+      "blogImage": "src/assets/images/Latest-post-5.jpg",
+      "Points": [
+        {
+          "title": "1. Fit is Everything",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "2. Invest in Quality Staples",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "3. Choose Colors That Empower",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "4. Accessorize Strategically",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        },
+        {
+          "title": "5. Confidence Starts Inside",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum tenetur! Doloremque minima quae distinctio nobis labore, voluptas et voluptatibus."
+        }
+      ],
+      "conclusion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas earum deleniti consectetur sit, illo eius exercitationem magni animi neque vitae. Quae cumque debitis architecto repellendus qui quos natus sequi iure?"
+    }
   }
 ]

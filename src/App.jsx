@@ -5,6 +5,7 @@ import Nav from './Components/Nav/Nav'
 import Index from './Components/Pages/Index'
 import About from './Components/Pages/About'
 import Blog from './Components/Pages/Blog'
+import BlogDetail from './Components/Pages/BlogDetail'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Index />} />
           <Route path='/about' element={<About />} />
           <Route path='/blog' element={<Blog />} />
+          <Route path='blog/:id' element={<BlogDetail />} />
         </Routes>
         <Footer />
       </BrowserRouter>

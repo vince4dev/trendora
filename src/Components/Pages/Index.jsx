@@ -1,5 +1,5 @@
-
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -87,9 +87,9 @@ function Index() {
             {Datas.map((Data, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <div className="headline d-flex align-items-center gap-2">
+                  <Link to={`/Blog/${Data.id}`} className="headline d-flex align-items-center gap-2">
                     <p className="m-0">{Data.title}</p>
-                  </div>
+                  </Link>
                 </SwiperSlide>
               )
             })}
@@ -117,8 +117,8 @@ function Index() {
           >
             {Datas.map((Data, index) => {
               return (
-                <SwiperSlide key={index}>
-                  <div className="headline-card d-flex align-items-center gap-2">
+                <SwiperSlide>
+                  <Link to={`/blog/${Data.id}`} key={index} className="headline-card d-flex align-items-center gap-2">
                     <div className="headline-image">
                       <img src={Data.image} className="img-fluid" alt="" />
                     </div>
@@ -126,7 +126,7 @@ function Index() {
                       <span>{Data.tag}</span>
                       <p>{Data.paragraph}</p>
                     </div>
-                  </div>
+                  </Link>
                 </SwiperSlide>
               )
             })}
@@ -138,7 +138,7 @@ function Index() {
           <div className="col-lg-3">
             {Datas.slice(2, 4).map((Data, index) => {
               return (
-                <div className="post-card" key={index}>
+                <Link to={`/blog/${Data.id}`} className="post-card" key={index}>
                   <div className="post-img">
                     <img src={Data.image} className="img-fluid rounded" alt="" />
                   </div>
@@ -146,7 +146,7 @@ function Index() {
                     <span className="post-span post-span1">{Data.tag}</span>
                     <h2>{Data.title}</h2>
                   </div>
-                </div>
+                </Link>
               )
             })}
           </div>
